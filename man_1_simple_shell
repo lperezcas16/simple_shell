@@ -1,0 +1,65 @@
+.TH simple_shell 1 "13/08/2020" " version 1.0" "Linux Programmer's Manual"
+
+.SH NAME
+simple_shell - My own simple shell
+.SH SYNOPSIS
+.PP
+$ [arguments] [file]
+
+.SH DESCRIPTION
+.PP
+.B Simple shell is a command-line interpreter that provides a command line user interface for Unix-like operating systems.
+
+That is, commands can be typed directly to the running shell or can be put into a file, which can be executed directly by the shell.
+
+.B Search and Execution
+
+There are three types of commands:shell functions, built-in commands, and normalprograms. 
+
+The command is searched for (by name) in that order. The three types of commands are all executedin a different way.
+Path Search When locating a command, the shell first looks to see if it has a shell function by that name.  Then it looks for a built-in command by that name. If a built-in command is not found, one of two things happen:
+
+1. Command names containing a slash are simply executed without per forming any searches.
+
+2. The shell searches each entry in the PATH variable in turn for thecommand. The value of the PATH variable should be a series of entries separated by colons. Each entry consists of a directory name. 
+The current directory may be indicated implicitly by an empty directory name, or explicitly by a single period.
+
+.B Built-in commands
+
+This section lists the built-in commands.
+
+.B exit 
+Terminate the shell process. 
+
+.B env
+Prints the current environment of the Simple shell. 
+
+.B setenv
+Sets an environment variable, overwrite if exist, creates it of doesn't exist.
+
+.B unsetenv
+Unsets a an environment variable, prints error if cant be found
+
+.SH Examples
+$ ./simple_shell
+
+$ pwd
+
+/home/vagrant/Proyecto_shell/simple_shell
+
+$ echo Hello World!
+
+hello world
+
+$ a
+
+./simple_shell: 2: a: not found
+
+$ exit
+
+.PP
+REPORT PROBLEMS TO: jsebastian.paruma@gmail.com or 1960@holbertonschool.com.
+.SH AUTHORS:
+WRITTEN BY: Sebastian Paruma and Laura Perez Castillo.
+.SH COPYRIGHT
+Copyright © 2020 Holberton School. This is Free Software : You are Free To Change and redistribute it...
