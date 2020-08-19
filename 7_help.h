@@ -14,7 +14,7 @@ typedef struct help
 {
 	char *fc;
 	void (*f)();
-} help_t;
+} help;
 
 int help_function(var_s *vars);
 void print_help(void);
