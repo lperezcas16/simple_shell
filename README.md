@@ -104,7 +104,6 @@ total 140
 | ------- | --- |
 | exit | Exit simple shell|	
 | env | Display environment variables |
-| cd | Change directory |
 | setenv | Set environment variable value or create a new one |
 | unsetenv | Delete environment variable |
 
