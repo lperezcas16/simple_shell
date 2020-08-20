@@ -126,7 +126,7 @@ $ unsetenv <MYVAR>
 
 * env
 ```
-$ env <MYVAR>
+$ env 
 ```
 
 <div align="center"><img src="images/env.png" width="480" height="150" /> </div>
