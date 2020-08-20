@@ -9,8 +9,8 @@
 <div align="center"><img src="images/image_readme_shell.gif" width="700" height="300" />
 
 
-# Simple Shell
-Our simple_shell project must have the same behavior thah sh shell in output and error. Our goal was to learn develop teamwork and imporve individual skills reagarding code.
+# Simple Shell (Shelldon)
+Let us introduce Shelldon, our simple_shell project that must have the same behavior thah sh shell in output and error. Our goal was to learn develop teamwork and imporve individual skills reagarding code.
 
 
 ---
