@@ -20,10 +20,10 @@ int help_function(var_s *vars)
 		{NULL, NULL}
 	};
 
-        char *value;
+	char *value;
 
-        value = vars->tokens[1];
-        vars->status = 0;
+	value = vars->tokens[1];
+	vars->status = 0;
 
 	if (value == NULL || value[0] == '\0')
 	{
